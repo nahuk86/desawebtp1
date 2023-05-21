@@ -122,12 +122,40 @@ header {
 }
 
 
-#grid {
+
+#card-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
+    padding: 0;
+    margin: 0;
 }
+
+.card {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card .card-text h2 {
+    margin: 10px 0;
+}
+
+.card .card-text a {
+    color: blue;
+    text-decoration: none;
+}
+
 
 footer {
     display: flex;
