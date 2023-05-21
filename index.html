@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,110 +8,112 @@
     <link rel="stylesheet" href="Assets/styles.css">
     <title>NotiUAI</title>
 </head>
+
 <body>
-        <header>
-            <div id="date"></div>
-            <div id="logo-name">
-                <img src="Assets/images/logo.png" alt="logo" id="logo">
-                <h1>NotiUAI</h1>
+    <header>
+        <div id="date"></div>
+        <div id="logo-name">
+            <img src="Assets/images/logo.png" alt="logo" id="logo">
+            <h1>NotiUAI</h1>
+        </div>
+    </header>
+    <nav id="navbar">
+        <div id="menuIcon">&#9776;</div>
+        <ul id="navItems">
+            <li><button>Sociedad</button></li>
+            <li><button>Actualidad</button></li>
+            <li><button>Policiales</button></li>
+            <li><button>Economia</button></li>
+            <li><button>Espectaculo</button></li>
+            <li><button>Deportes</button></li>
+            <li><button>Tecnologia</button></li>
+        </ul>
+    </nav>
+    <section id="carousel-section">
+        <div id="carousel">
+            <div class="slide" style="display: none;">
+                <img src="Assets/images/image1.png" alt="Image 1">
+                <div class="text">
+                    <h2>Titular de noticia Nro 1</h2>
+                    <p>Este es el subtitulo de la noticia nro 1</p>
+                    <a href="#">Link 1</a>
+                </div>
             </div>
-        </header>
-        <nav id="navbar">
-            <div id="menuIcon">&#9776;</div>
-            <ul id="navItems">
-                <li><button>Sociedad</button></li>
-                <li><button>Actualidad</button></li>
-                <li><button>Policiales</button></li>
-                <li><button>Economia</button></li>
-                <li><button>Espectaculo</button></li>
-                <li><button>Deportes</button></li>
-                <li><button>Tecnologia</button></li>
-            </ul>
-        </nav>
-        <section id="carousel-section">
-            <div id="carousel">
-                <div class="slide" style="display: none;">
-                    <img src="Assets/images/image1.png" alt="Image 1">
-                    <div class="text">
-                        <h2>Title 1</h2>
-                        <p>Subtitle 1</p>
-                        <a href="#">Link 1</a>
-                    </div>
+            <div class="slide" style="display: none;">
+                <img src="Assets/images/image2.png" alt="Image 1">
+                <div class="text">
+                    <h2>Titular de noticia Nro 2</h2>
+                    <p>Este es el subtitulo de la noticia nro 2</p>
+                    <a href="#">Link 1</a>
                 </div>
-                <div class="slide" style="display: none;">
-                    <img src="Assets/images/image2.png" alt="Image 1">
-                    <div class="text">
-                        <h2>Title 1</h2>
-                        <p>Subtitle 1</p>
-                        <a href="#">Link 1</a>
-                    </div>
+            </div>
+            <div class="slide" style="display: none;">
+                <img src="Assets/images/image3.png" alt="Image 1">
+                <div class="text">
+                    <h2>Titular de noticia Nro 3</h2>
+                    <p>Este es el subtitulo de la noticia nro 3</p>
+                    <a href="#">Link 1</a>
                 </div>
-                <div class="slide" style="display: none;">
-                    <img src="Assets/images/image3.png" alt="Image 1">
-                    <div class="text">
-                        <h2>Title 1</h2>
-                        <p>Subtitle 1</p>
-                        <a href="#">Link 1</a>
-                    </div>
-                </div>
-                <button class="carousel-control prev">&#10094;</button>
-                <button class="carousel-control next">&#10095;</button>
-            </div>            
-        </section>
-        <section id="card-grid">
-            <div class="card">
-                <img src="Assets/images/card1.png" alt="Image 1">
-                <div class="card-text">
-                    <h2>Title 1</h2>
-                    <a href="#">Read more</a>
-                </div>
-                                </div>
-                <div class="card">
-                <img src="Assets/images/card2.png" alt="Image 1">
-                <div class="card-text">
-                    <h2>Title 1</h2>
-                    <a href="#">Read more</a>
-                </div>
-                                </div>
-                                <div class="card">
-                <img src="Assets/images/card3.png" alt="Image 1">
-                <div class="card-text">
-                    <h2>Title 1</h2>
-                    <a href="#">Read more</a>
-                </div>
-                                </div>
-                                                <div class="card">
-                <img src="Assets/images/card2.png" alt="Image 1">
-                <div class="card-text">
-                    <h2>Title 1</h2>
-                    <a href="#">Read more</a>
-                </div>
-                                </div>
-                                                                <div class="card">
-                <img src="Assets/images/card1.png" alt="Image 1">
-                <div class="card-text">
-                    <h2>Title 1</h2>
-                    <a href="#">Read more</a>
-                </div>
-                                </div>
-                                                                                <div class="card">
-                <img src="Assets/images/card3.png" alt="Image 1">
-                <div class="card-text">
-                    <h2>Title 1</h2>
-                    <a href="#">Read more</a>
-                </div>
-                                </div>
-                    
-    </div>
+            </div>
+            <button class="carousel-control prev">&#10094;</button>
+            <button class="carousel-control next">&#10095;</button>
+        </div>
     </section>
-        <footer>
+    <section id="card-grid">
+        <div class="card">
+            <img src="Assets/images/card1.png" alt="Image 1">
+            <div class="card-text">
+                <h2>Noticia no relevante 1</h2>
+                <a href="#">Leer más</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/card2.png" alt="Image 1">
+            <div class="card-text">
+                <h2>Noticia no relevante 2</h2>
+                <a href="#">Leer más</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/card3.png" alt="Image 1">
+            <div class="card-text">
+                <h2>Noticia no relevante 3</h2>
+                <a href="#">Leer más</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/card2.png" alt="Image 1">
+            <div class="card-text">
+                <h2>Noticia no relevante 4</h2>
+                <a href="#">Leer más</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/card1.png" alt="Image 1">
+            <div class="card-text">
+                <h2>Noticia no relevante 5</h2>
+                <a href="#">Leer más</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets/images/card3.png" alt="Image 1">
+            <div class="card-text">
+                <h2>Noticia no relevante 6</h2>
+                <a href="#">Leer más</a>
+            </div>
+        </div>
 
-            <h4>2023 Company, Tp Desarrollo Web - Flex Box - Grupo 4.</h4>
-            <p>Author: </p>
-            <p><a href="https://github.com/nahuk86/desawebtp1/tree/main"></a>nahuk86/desawebtp1Public</p>
+        </div>
+    </section>
+    <footer>
 
-        </footer>
+        <h4>2023 NotiUAI, Tp Desarrollo Web - Flex Box - Grupo 4.</h4>
+        <p>Autor: </p>
+        <p><a href="https://github.com/nahuk86/desawebtp1/tree/main"></a>nahuk86/desawebtp1Public</p>
+
+    </footer>
     <script src="Assets/script.js"></script>
 
 </body>
+
 </html>

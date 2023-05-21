@@ -156,17 +156,14 @@ header {
     text-decoration: none;
 }
 
-
-
-
-
 footer {
     flex-shrink: 0;
     flex-wrap: nowrap;
     background-color: #f5f5f5;
-    padding: 20px;
+    padding:20px;
     width: 100%;
   }
+
 
 /* Styles for larger screens */
 @media (min-width: 768px) {
@@ -194,6 +191,11 @@ footer {
         flex: 0 0 calc(33.33% - 20px); /* calculate the width for 3 columns minus the margin */
     }
 
+}
 
-
+@media (max-width: 768px) {
+    #carousel .slide img {
+        height: 300px;   /* Set this to the height you want */
+        object-fit: cover;  /* This will ensure that the image covers the whole area of its container */
+    }
 }
